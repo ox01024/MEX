@@ -23,11 +23,11 @@ read index
 
 reMac(){
 	echo "关闭无线网卡"
-#	sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -z
+	sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -z
 	echo "Mac地址修改为—>${mac_array[$1]}"
-#	sudo ifconfig en0 ether ${mac_array[$1]}
+	sudo ifconfig en0 ether ${mac_array[$1]}
 	echo "重启网卡"
-#	networksetup -detectnewhardware
+	networksetup -detectnewhardware
 }
 
 reMac $[index-1]
