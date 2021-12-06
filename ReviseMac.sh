@@ -4,8 +4,11 @@
 ######## mac_addar ############
 mac_array[0]="1e:81:bf:5e:81:79"
 mac_array[1]="36:18:06:69:ab:9b"
-mac_array[2]="c2:3d:55:99:8d:7b"
-mac_array[3]="9a:35:11:94:4d:ba"
+mac_array[2]="9a:35:11:94:4d:ba"
+mac_array[3]="52:f9:8c:e0:dc:6a"
+mac_array[4]="2e:63:fc:13:bf:60"
+mac_array[5]="46:93:8c:b6:aa:43"
+mac_array[6]="f8:ff:c2:35:ff:c5"
 mac_array_len=${#mac_array[*]}
 
 
